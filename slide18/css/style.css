@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  border: 1px solid red;
+  padding: 20px;
+
+  height: 400px;
+  background-color: blue;
+
+}
+
+
+@media screen and (max-width:479px){
+  .container{
+    background-color: green;
+  }
+}
+
+@media screen and (min-width:1441px){
+  .container{
+    background-color: red;
+  }
+}

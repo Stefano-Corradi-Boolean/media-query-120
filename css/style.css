@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MOBILE FIRST */
+/* Con Mobile first il default è pensato al mobile  */
+body{
+  background-color: rgb(147, 6, 6)
+}
+
+@media screen and (min-width: 768px){
+  body{
+    background-color: rgb(27, 147, 57)
+  }
+} 
+
+@media screen and (min-width: 1280px){
+  body{
+    background-color: rgb(47, 31, 194)
+  }
+}
+
+/* DESKTOP FIRST */
+/* Con Desktop first il default è pensato al PC  */
+/* body{
+  background-color: rgb(47, 31, 194)
+}
+
+@media screen and (max-width: 1280px){
+  body{
+    background-color: rgb(27, 147, 57)
+  }
+} 
+
+@media screen and (max-width: 768px){
+  body{
+    background-color: rgb(147, 6, 6)
+  }
+}
+ */
+
+

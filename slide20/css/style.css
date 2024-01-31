@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 400px;
+  background-color: blue;
+  max-width: 1400px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box_green{
+  display: none;
+}
+
+
+
+@media screen and (min-width: 580px){
+  .box_green{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+    background-color: green;
+  }
+  .box_white{
+    height: 300px;
+    aspect-ratio: 1;
+    background-color: #fff;
+    margin: 25px;
+  }
+}
